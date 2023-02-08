@@ -64,7 +64,23 @@
 
 
 /* 8. exercice-all-in-2 */
+.exercice-all-in-2 .container{
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+}
 
+.exercice-all-in-2 .element-red{
+  order: 1;
+}
+
+.exercice-all-in-2 .element-pink, .exercice-all-in-2 .element-blue{
+order: -1;
+}
+
+.exercice-all-in-2 .element-pink{
+  align-self: flex-start;
+}
 
 /* 8. exercice-margin-auto */
 
